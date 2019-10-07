@@ -1,0 +1,48 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.img-sick {
+  height: 60%;
+  background-image: url("https://papermag-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F21155331%2F1200x600.jpg/2000%2C2000/B2DJdXZiH1%2BWc5Ca/img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sick {
+  font-family: "Cormorant", serif;
+}
+.menu {
+  font-family: "Spectral", serif;
+}
+.nav-item {
+  color: black;
+}
+
+.p-background {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  transition-property: background-color, color;
+  transition-duration: 2s, 8s;
+  transition-timing-function: linear, easy out;
+}
+
+.p-background:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.sicksociety {
+  font-family: "Spectral", serif;
+}
+
+.img-2 img {
+  border: 0px solid black;
+  transition: border-width 2s;
+}
+
+.img-2 img:hover {
+  border-width: 5px;
+}
